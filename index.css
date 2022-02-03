@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#header {
+  padding-top: 30px;
+  padding-bottom: 16px;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+
+#nav-logo {
+  width: 120px;
+  height: 50px;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+#nav-links {
+  display: flex;
+}
+
+#nav-links > p {
+  margin-left: 32px;
+  font-weight: 400;
+  opacity: 0.5;
+  cursor: pointer;
+  border-bottom: 4px solid #fff;
+}
+
+#nav-links > p:hover {
+  opacity: 1;
+  border-bottom: 4px solid #1e1274;
+}
+
+.nav-account-btn {
+  background-color: #ffd8db;
+  padding: 16px 40px;
+  border-radius: 25px;
+  margin: 0;
+  cursor: pointer;
+  color: #a676ca;
+  font-weight: 700;
+  border: none;
+  font-size: 16px;
+}
+
+/*  */
+
+#main-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 170px;
+  padding-bottom: 100px;
+}
+
+#heading {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 32px;
+}
+
+.heading-dot {
+  font-size: 25px;
+  color: #5243c0;
+}
+
+#left-content-wrapper {
+  margin-left: 150px;
+}
+
+#left-content-wrapper > p {
+  color: #7e7e7e;
+}
+
+#create-account-wrapper {
+  display: flex;
+  margin-top: 28px;
+}
+
+.create-account-btn {
+  background-color: #5243c0;
+  padding: 16px 40px;
+  border-radius: 25px;
+  margin: 0;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+}
+
+.arrow-up {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#user-card-wrapper {
+  margin-top: 80px;
+  font-weight: 500;
+}
+
+.user-card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f8f8f8;
+  margin-top: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.user-card:hover {
+  background-color: #fff;
+  box-shadow: 0 0 40px #ccc;
+}
+
+.card-pink-tick {
+  width: 20px;
+  height: 10px;
+  background-color: #fed7da;
+  border-radius: 5px;
+}
+
+.card-red-tick {
+  width: 20px;
+  height: 10px;
+  background-color: #fd6534;
+  border-radius: 5px;
+}
+
+.card-green-tick {
+  width: 20px;
+  height: 10px;
+  background-color: #9ed095;
+  border-radius: 5px;
+}
+
+.card-yellow-tick {
+  width: 20px;
+  height: 10px;
+  background-color: #ffe4a0;
+  border-radius: 5px;
+}
